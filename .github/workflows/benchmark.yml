@@ -8,6 +8,8 @@ jobs:
   benchmark:
     name: Performance regression check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js
