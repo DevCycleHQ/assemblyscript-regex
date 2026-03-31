@@ -29,10 +29,10 @@
     "url": "git+https://github.com/ColinEberhardt/assemblyscript-regex"
   },
   "overrides": {
-    "handlebars": ">=4.7.9",
-    "picomatch": ">=2.3.2",
-    "flatted": ">=3.4.2",
-    "glob-promise": ">=6.0.7"
+    "handlebars": "^4.7.9",
+    "picomatch": "^2.3.2",
+    "flatted": "^3.4.2",
+    "glob-promise": "^6.0.7"
   },
   "devDependencies": {
     "@as-pect/cli": "^8.0.1",
