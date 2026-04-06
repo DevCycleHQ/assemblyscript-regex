@@ -11,8 +11,7 @@ const range = (from, to) =>
 const knownIssues = {
   /* ------- features  not yet implemented ------- */
   "does not support start of string quantified within an alternation": [
-    1363,
-    1369,
+    1363, 1369,
   ],
   "does not support hex notification in character sets": [...range(1147, 1149)],
   "does nto support escaped characters in character ranges": [
@@ -44,8 +43,7 @@ const knownIssues = {
     ...range(1186, 1188),
   ],
   "JS does not support the \\A \\Z syntax for start and end of string": [
-    1163,
-    1164,
+    1163, 1164,
   ],
   "test regex contains syntax not supported in JS": [82, 1158, 281],
   "the test behaviour differs between PCRE and JS": [290, 1278],
