@@ -9,8 +9,8 @@
     "test": "npm run prettier && npm run eslint && npm run asp && npm run test:empty",
     "test:empty": "diff build/empty.wat assembly/__tests__/empty.wat",
     "test:generate": "node spec/test-generator.js",
-    "asp": "asp --verbose --nologo",
-    "asp:ci": "asp --nologo",
+    "asp": "asp --verbose --no-logo",
+    "asp:ci": "asp --no-logo",
     "prettier": "prettier --check .",
     "prettier:write": "prettier --write .",
     "eslint:write": "npm run eslint -- --fix ",
@@ -28,6 +28,12 @@
     "type": "git",
     "url": "git+https://github.com/ColinEberhardt/assemblyscript-regex"
   },
+  "overrides": {
+    "handlebars": "^4.7.9",
+    "picomatch": "^2.3.2",
+    "flatted": "^3.4.2",
+    "glob-promise": "^6.0.7"
+  },
   "devDependencies": {
     "@as-pect/cli": "^8.0.1",
     "@assemblyscript/loader": "^0.27.0",
@@ -38,7 +44,7 @@
     "benchmark": "^2.1.4",
     "eslint": "^7.32.0",
     "prettier": "^2.8.8",
-    "semantic-release": "^19.0.3",
+    "semantic-release": "^24.2.9",
     "text-encoding": "^0.7.0",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"

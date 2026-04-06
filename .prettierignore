@@ -1,3 +1,5 @@
 # prettier doesn't support decorators on functions :-(
 assembly/char.ts
+assembly/nfa/matcher.ts
 assembly/nfa/types.ts
+assembly/parser/walker.ts
