@@ -3,3 +3,4 @@ assembly/char.ts
 assembly/nfa/matcher.ts
 assembly/nfa/types.ts
 assembly/parser/walker.ts
+.worktrees/
