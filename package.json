@@ -37,14 +37,18 @@
     "flatted": "^3.4.2",
     "glob-promise": "^6.0.7",
     "lodash": "4.18.1",
-    "fast-uri": "3.1.2",
+    "fast-uri": "3.1.4",
     "ip-address": "10.1.1",
     "@semantic-release/npm": "13.1.5",
     "npm": "11.18.0",
     "@sigstore/verify": "3.1.1",
     "@sigstore/core": "3.2.1",
     "undici": "6.27.0",
-    "tar": "7.5.16"
+    "tar": "7.5.16",
+    "js-yaml": "^3.15.0",
+    "cosmiconfig": {
+      "js-yaml": "^4.2.0"
+    }
   },
   "devDependencies": {
     "@as-pect/cli": "^8.0.1",
