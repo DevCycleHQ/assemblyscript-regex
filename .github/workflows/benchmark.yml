@@ -9,9 +9,9 @@ jobs:
     name: Performance regression check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22.14.x
       - run: npm ci --legacy-peer-deps
@@ -21,7 +21,7 @@ jobs:
         run: npm run benchmark | tee benchmark/output.txt
       # Download previous benchmark result from cache (if exists)
       - name: Download previous benchmark data
-        uses: actions/cache@v1
+        uses: actions/cache@v6
         with:
           path: ./cache
           key: ${{ runner.os }}-benchmark
