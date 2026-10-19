@@ -29,7 +29,7 @@
     "url": "git+https://github.com/ColinEberhardt/assemblyscript-regex"
   },
   "overrides": {
-    "handlebars": "^4.7.9",
+    "handlebars": "^4.7.10",
     "picomatch": "^2.3.2",
     "tinyglobby": {
       "picomatch": "4.0.4"
@@ -40,7 +40,7 @@
     "fast-uri": "3.1.7",
     "ip-address": "10.7.3",
     "@semantic-release/npm": "13.1.5",
-    "npm": "11.21.0",
+    "npm": "11.21.1",
     "@sigstore/verify": "3.1.1",
     "@sigstore/core": "3.2.1",
     "undici": "6.29.0",
