@@ -40,7 +40,7 @@
     "fast-uri": "3.1.9",
     "ip-address": "10.7.3",
     "@semantic-release/npm": "13.1.5",
-    "npm": "11.21.1",
+    "npm": "11.21.2",
     "@sigstore/verify": "3.1.1",
     "@sigstore/core": "3.2.1",
     "undici": "6.29.1",
